@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Notificação de promoção",
+  "description": "Essa extensão irá avisar quando tiver promoção em um site.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "notifications",
+    "storage",
+    "bookmarks"
+  ]
+}
